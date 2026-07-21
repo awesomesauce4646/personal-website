@@ -1,5 +1,6 @@
 body {
-    background-color: #000136;
+    background-image: url(../../AppData/Local/Temp/5c3e0360-eb4a-4e24-aedb-ebfb7be2ca88_vecteezy_blue-background-dark-blue-abstract-background-geometry_9751175_339.zip.a88/vecteezy_blue-background-dark-blue-abstract-background-geometry_9751175.jpg);
+    background-size: cover;
 }
 
 h1 {
@@ -8,4 +9,8 @@ h1 {
 
 p {
     color: #ffffff;
+}
+
+div {
+    background-color: #000136;
 }
