@@ -1,6 +1,9 @@
 body {
-    background-image: url(../../AppData/Local/Temp/5c3e0360-eb4a-4e24-aedb-ebfb7be2ca88_vecteezy_blue-background-dark-blue-abstract-background-geometry_9751175_339.zip.a88/vecteezy_blue-background-dark-blue-abstract-background-geometry_9751175.jpg);
-    background-size: cover;
+  background-image: url('vecteezy_blue-background-dark-blue-abstract-background-geometry_9751175.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -16,6 +19,16 @@ div {
 }
 
 .navbar {
-    background-color: #054780;
+    background-color: #0a38ad;
     display: flex;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.links {
+    flex-grow: 1;
+    margin: 5px;
+    padding: 10px;
+    background-color:rgb(94, 122, 223);
 }
