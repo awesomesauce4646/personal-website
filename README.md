@@ -1,1 +1,1 @@
-hello! uhh im just trying to be productive over summer so im trying out hackclub. cool. website about me that is currently in progress as of 7/21/2026
+hello! this is my personal website that talks about me, with three sections such as: home, facts, and credits! it has a blue theme going on, since that's my fav color :)
