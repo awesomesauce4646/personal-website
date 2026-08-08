@@ -53,12 +53,12 @@ h2 {
 .paragraphs {
     background-color: rgb(0, 25, 134);
     height: auto;
-    justify-content: center;
-    width: 1000px;
+    width: 1125px;
+    justify-content: left;
     margin: auto;
     padding: 30px;
     border-radius: 10px;
-    display:flex;
+    display: flex;
     gap: 10px;
     flex-direction: row-reverse;
     border-style: double;
@@ -127,4 +127,9 @@ a {
     border-style: solid;
     margin: auto 0;
     display:flex;
+}
+
+.game {
+    padding: 7px;
+    
 }
