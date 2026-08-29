@@ -41,6 +41,8 @@ h1 {
 
 p {
     color: #ffffff;
+    animation: fadeIn 1000ms ease-in-out;
+
 }
 
 h2 {
@@ -48,6 +50,8 @@ h2 {
     font-family: "Josefin Sans", system-ui;
     letter-spacing: 1px;
     font-style: italic;
+    animation: fadeIn 1000ms ease-in-out;
+
 }
 
 .paragraphs {
@@ -92,6 +96,11 @@ a {
 
 }
 
+.links:hover {
+    border-color:#ff57e0;
+    background-color: #b35cfa;
+}
+
 .links {
     flex-grow: 1;
     padding: 5px;
@@ -113,6 +122,8 @@ a {
     border-width: 12px;
     margin: auto 0;
     display: flex;
+    animation: fadeIn 800ms ease-in-out;
+
 }
 
 .body-of-text {
@@ -132,4 +143,14 @@ a {
 .game {
     padding: 7px;
     
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
