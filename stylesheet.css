@@ -1,3 +1,14 @@
+/* Normal moving cursor on the page */
+html {
+  cursor: url('cursor.cur'), auto;
+}
+
+
+/* Pointer cursor when hovering over links */
+a {
+  cursor: url('pointer.cur'), pointer;
+}
+
 body {
   background-image: url('background.jpg');
   background-size: cover;
