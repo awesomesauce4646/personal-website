@@ -1,3 +1,14 @@
+/* Normal moving cursor on the page */
+html {
+  cursor: url('cursor.cur'), auto;
+}
+
+
+/* Pointer cursor when hovering over links */
+a {
+  cursor: url('pointer.cur'), pointer;
+}
+
 body {
   background-image: url('background.jpg');
   background-size: cover;
@@ -13,7 +24,7 @@ h1 {
     align-items: center;
     font-family: "Bagel Fat One", system-ui;
     background-color: rgb(0, 25, 134);
-    height: 125px;
+    height: 7.75rem;
     width: 325px;
     margin: auto;
     border-radius: 50px;
@@ -99,6 +110,7 @@ a {
 .links:hover {
     border-color:#ff57e0;
     background-color: #b35cfa;
+    transform: scale(1.075);
 }
 
 .links {
@@ -110,6 +122,8 @@ a {
     border-style: dashed;
     border-color: rgb(74, 103, 207);
     border-width: 5px;
+    transition: background 150ms ease, transform 150ms ease;
+
 }
 
 
@@ -153,4 +167,11 @@ a {
     100% {
         opacity: 100%;
     }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin: 5rem;
 }
