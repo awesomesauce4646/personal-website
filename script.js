@@ -1,5 +1,7 @@
+
 var header = document.getElementById('header');
-var changed = false
+var mouseClick = document.getElementById('mouseClick');
+var changed = false;
 
 function onClick() {
     if (!changed) {
@@ -10,5 +12,30 @@ function onClick() {
         changed = false;
     }
 }
+
+
+var mouseClick = document.getElementById('mouseClick');
+
+var navLinks = document.querySelectorAll('.links a');
+
+navLinks.forEach(function(link) {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        var destination = link.href;
+
+        mouseClick.currentTime = 0;
+        mouseClick.play();
+
+        mouseClick.onended = function() {
+            window.location.href = destination;
+        };
+
+        setTimeout(function() {
+            window.location.href = destination;
+        }, 500);
+    });
+});
+
 
 header.addEventListener('click', onClick);
